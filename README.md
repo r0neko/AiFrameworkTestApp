@@ -27,6 +27,14 @@ The upper-left button clears all the green rectangles
 - Set `AiFrameworkTestApp` as the startup project by right-clicking it and selecting `Set as Startup Project`
 - Build and enjoy!
 
+## Experimental CMake Support
+
+There is a brand new CMake file that will compile everything! It was tested on Windows under CLion. Still working on proper build instructions using CMake, but remember to provide the vcpkg toolchain like this: `-DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake`
+
+After compilation, your app should be found in the 'build_dir/output' directory.
+
+Should you have any idea to improve this process, refer to the `I want to contribute! I think it deserves to be better!` section.
+
 ## AiFramework got updated and I didn't get the update! What do I do?
 
 Simple! Just run `git submodule update --remote --merge` in the root of this repository. This will update the AiFramework submodule to the latest version in the main branch.
