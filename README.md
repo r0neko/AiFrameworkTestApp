@@ -29,7 +29,7 @@ The upper-left button clears all the green rectangles
 
 ## AiFramework got updated and I didn't get the update! What do I do?
 
-Simple! Just run `git submodule sync` and `git submodule update --remote --merge` in the root of this repository. This will update the AiFramework submodule to the latest version in the main branch.
+Simple! Just run `git submodule update --remote --merge` in the root of this repository. This will update the AiFramework submodule to the latest version in the main branch.
 
 ## I want to contribute! I think it deserves to be better!
 
