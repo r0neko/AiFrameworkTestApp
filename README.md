@@ -23,6 +23,7 @@ The upper-left button clears all the green rectangles
 ## Great, how do I run it?
 
 - Clone this repository with all of its submodules (AiFramework is a submodule for this repository) by running `git clone --recursive https://github.com/r0neko/AiFrameworkTestApp.git`
+- Configure the submodules by running `git submodule update --remote --merge --init --recursive`
 - Open the solution in Visual Studio 2022
 - Set `AiFrameworkTestApp` as the startup project by right-clicking it and selecting `Set as Startup Project`
 - Build and enjoy!
@@ -37,7 +38,7 @@ Should you have any idea to improve this process, refer to the `I want to contri
 
 ## AiFramework got updated and I didn't get the update! What do I do?
 
-Simple! Just run `git submodule update --remote --merge` in the root of this repository. This will update the AiFramework submodule to the latest version in the main branch.
+Simple! Just run `git submodule update --remote --merge --init --recursive` in the root of this repository. This will update the AiFramework submodule to the latest version in the main branch.
 
 ## I want to contribute! I think it deserves to be better!
 
