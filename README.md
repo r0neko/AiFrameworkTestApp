@@ -14,11 +14,11 @@ Don't expect too much. It's just a test application. Other than that, here it is
 
 ## What is all this abstract stuff going on? How do I use it?
 
-W, A, S, D - moves the white rectangle
-Left mouse button - creates a new green rectangle and makes the cursor(red rectangle) turn green
-Right mouse button - makes the cursor(red rectangle) turn blue
-Left + Right mouse buttons - makes the cursor(red rectangle) turn white and draws a green rectangle
-The upper-left button clears all the green rectangles
+- W, A, S, D - moves the white rectangle
+- Left mouse button - creates a new green rectangle and makes the cursor(red rectangle) turn green
+- Right mouse button - makes the cursor(red rectangle) turn blue
+- Left + Right mouse buttons - makes the cursor(red rectangle) turn white and draws a green rectangle
+- The upper-left button clears all the green rectangles
 
 ## Great, how do I run it?
 
